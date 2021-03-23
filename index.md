@@ -19,7 +19,7 @@
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
 
-<model-viewer camera-controls autoplay animation-name="" id="reveal" loading="eager" src="Models/Hello Again_Test_01.gltf?sound=Sound/Hello Again_Test_.wav" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_hello_again_test_01___1616456812061.usdz" alt="HelloAgain Test" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 600px" exposure="0.5"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; "> 👋 AR Click Here </button>
+<model-viewer camera-controls autoplay animation-name="" id="reveal" loading="eager" src="Models/Hello Again_Test_01.glb?sound=Sound/Hello Again_Test_.wav" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_hello_again_test_01___1616456812061.usdz" alt="HelloAgain Test" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 600px" exposure="0.5"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; "> 👋 AR Click Here </button>
   
 
 </model-viewer>

@@ -13,6 +13,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <b>DISCOVER:</b><a href="https://avertek.net/special-bonus" onclick="getOutboundLink('https://avertek.net/special-bonus'); return false;"</b> <b> VIP TOUR & FREE GIFT</a> 
   <br><br>
-theme: jekyll-theme-minimal
+theme: jekyll-theme-tactile
 # Google Analytics
 google_analytics: UA-000000000-0 

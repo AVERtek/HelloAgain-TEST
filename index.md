@@ -1,3 +1,9 @@
+<model-viewer camera-controls camera-orbit="0deg 90deg 100%" autoplay animation-name="" id="reveal" loading="eager" src="Models/Hello Again_Exerpience_05.glb?sound=Sound/MP3_Hello Again_Test_with background music.mp3" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="Models/HelloAgain.reality" alt="HelloAgain Test" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 600px" exposure="0.95"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; "> 👋 AR Click Here </button>
+  
+
+</model-viewer>
+
+
 <img src="images/HelloAgain_Logo-CMYK-3.png" width=300>
 ## TEST ONLY
 ### Experience Augmented Reality; 4D "Hello Again" on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
@@ -20,10 +26,7 @@
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
 
-<model-viewer camera-controls camera-orbit="0deg 90deg 100%" autoplay animation-name="" id="reveal" loading="eager" src="Models/Hello Again_Exerpience_05.glb?sound=Sound/MP3_Hello Again_Test_with background music.mp3" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="Models/HelloAgain.reality" alt="HelloAgain Test" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 600px" exposure="0.95"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; "> 👋 AR Click Here </button>
-  
 
-</model-viewer>
 
 
 <script>

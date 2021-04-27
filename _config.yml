@@ -13,6 +13,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <b>ENGAGE:</b><a href="https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b><b> WHERE</b></a> 
   <br><br>
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 # Google Analytics
 google_analytics: UA-000000000-0 

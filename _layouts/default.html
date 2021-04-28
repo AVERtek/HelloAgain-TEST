@@ -48,13 +48,13 @@
 	   
 	  </body>
 	</p>
-<script>
-      function Sync(selector, audioSelector) {
-        var modelViewer = document.querySelector(selector);
-        var sound = document.querySelector(audioSelector);
-        var playRequest = document.querySelector("#overlay");
+       <script>
+           function Sync(selector, audioSelector) {
+           var modelViewer = document.querySelector(selector);
+           var sound = document.querySelector(audioSelector);
+           var playRequest = document.querySelector("#overlay");
 
-   sound.addEventListener("timeupdate", () => {
+       sound.addEventListener("timeupdate", () => {
           modelViewer.currentTime = sound.currentTime;
           console.log("modelViewer time: " + modelViewer.currentTime);
         });
@@ -92,7 +92,7 @@
         }
 
    /*
-        // this was needed because modelViewer.currentTime does not update when paused
+   // this was needed because modelViewer.currentTime does not update when paused
         // https://github.com/google/model-viewer/issues/1113
           function enforceTime() {
             if (modelViewer === undefined)
@@ -111,8 +111,8 @@
         */
          }
 
-   function playNow() {
-        var playRequest = document.querySelector("#overlay");
+function playNow() {
+   var playRequest = document.querySelector("#overlay");
         playRequest.classList.add("hide");
 
    var sound = document.querySelector("#sound");

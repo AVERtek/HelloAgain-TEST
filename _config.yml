@@ -2,16 +2,16 @@
 logo1: "images/HelloAgain_Logo-CMYK-4.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
 
-  <h3><b>CANNABIS-POWERED VAGITORY</h3></b>
-  <h3><b>Menopause Relief</h3></b>
+  <h3 style="text-align: center;" markdown="1"><b>CANNABIS-POWERED VAGITORY</h3></b>
+  <h3 style="text-align: center;" markdown="1"><b>Menopause Relief</h3></b>
   <br><br>
-  <b>EXPERIENCE:</b> 3D & 4D on Mobile Device
+  <b style="text-align: center;" markdown="1">EXPERIENCE:</b> 3D & 4D on Mobile Device
   <br><br> 
-  <b>EDUCATION:</b><a href="https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase" onclick="getOutboundLink('https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase'); return false;"</b><b> FAQs</b></a> 
+  <b style="text-align: center;" markdown="1">EDUCATION:</b><a href="https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase" onclick="getOutboundLink('https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase'); return false;"</b><b> FAQs</b></a> 
   <br><br>
-  <b>ENLIGHTENMENT:</b><a href="https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b> <b> WHY</a> 
+  <b style="text-align: center;" markdown="1">ENLIGHTENMENT:</b><a href="https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b> <b> WHY</a> 
   <br><br>
-  <b>ENGAGE:</b><a href="https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b><b> WHERE</b></a> 
+  <b style="text-align: center;" markdown="1">ENGAGE:</b><a href="https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b><b> WHERE</b></a> 
   <br><br>
 theme: jekyll-theme-cayman
 # Google Analytics

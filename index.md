@@ -19,6 +19,14 @@
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
 
 <script>
+  <h3 style="text-align: center;" markdown="1"><b>EXPERIENCE:</b> 3D & 4D on Mobile Device
+  <br><br> 
+  <h3 style="text-align: center;" markdown="1"><b>EDUCATION:</b><a href="https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase" onclick="getOutboundLink('https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase'); return false;"</b><b> FAQs</b></a> 
+  <br><br>
+  <h3 style="text-align: center;" markdown="1"><b>ENLIGHTENMENT:</b><a href="https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b> <b> WHY</a> 
+  <br><br>
+  <h3 style="text-align: center;" markdown="1"><b>ENGAGE:</b><a href="https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b><b> WHERE</b></a> 
+  <br><br>
 /**
 * Function that registers a click on an outbound link in Analytics.
 * This function takes a valid URL string as an argument, and uses that URL string

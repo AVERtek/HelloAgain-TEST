@@ -50,5 +50,3 @@ var getOutboundLink = function(url) {
   </script>
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
----
-

@@ -48,7 +48,7 @@
 	   
 	  </body>
 	</p>
- <script>
+<script>
       function Sync(selector, audioSelector) {
         var modelViewer = document.querySelector(selector);
         var sound = document.querySelector(audioSelector);
@@ -146,11 +146,40 @@
    </section>
 
    <script>
-       window.addEventListener("load", () => {
-         Sync("#model-viewer", "#sound");
+        window.addEventListener("load", () => {
+          Sync("#model-viewer", "#sound");
         });
       </script>
-   	     
+   
+
+<script>
+/**
+* Function that registers a click on an outbound link in Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+* using 'navigator.sendBeacon' in browser that support it.
+*/
+var getOutboundLink = function(url) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': url,
+    'transport_type': 'beacon',
+    'event_callback': function(){document.location = url;}
+  });
+}
+</script>
+
+<!-- Loads <model-viewer> for modern browsers: -->
+ <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+<!-- Loads <model-viewer> for modern browsers: -->
+ <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
         <!--<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>-->
 <p align="center">
 <a href="https://avertek.net/xr-now" onclick="getOutboundLink('https://avertek.net/xr-now'); return false;">Learn More About AVERtek's XR-NOW</a> 

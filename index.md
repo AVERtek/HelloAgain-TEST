@@ -36,8 +36,7 @@ var getOutboundLink = function(url) {
   });
 }
 </script>
-### <a href="https://avertek.net/xr-now" onclick="getOutboundLink('https://avertek.net/xr-now'); return false;">Learn More About AVERtek's XR-NOW</a> 
-  <br><br>
+
 
 <!-- Loads <model-viewer> for modern browsers: -->
  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
@@ -50,3 +49,5 @@ var getOutboundLink = function(url) {
   </script>
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
+### <a href="https://avertek.net/xr-now" onclick="getOutboundLink('https://avertek.net/xr-now'); return false;">Learn More About AVERtek's XR-NOW</a> 
+  <br><br>
